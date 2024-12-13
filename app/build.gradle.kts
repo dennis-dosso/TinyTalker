@@ -68,4 +68,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // ONNX Runtime with GenAI
+    implementation("com.microsoft.onnxruntime:onnxruntime-android:latest.release")
+    implementation(files("libs/onnxruntime-genai-android-0.4.0-dev.aar"))
 }
