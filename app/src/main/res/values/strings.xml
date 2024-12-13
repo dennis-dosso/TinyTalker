@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TinyTalker</string>
+    <string name="generate_text">Generate Text</string>
+    <string name="enter_message">Write your message</string>
+    <string name="send">SEND</string>
+    <string name="model">Model</string>
+</resources>
