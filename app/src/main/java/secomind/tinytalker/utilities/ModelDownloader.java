@@ -18,7 +18,7 @@ import java.util.List;
 import ai.onnxruntime.genai.GenAIException;
 
 public class ModelDownloader {
-  interface DownloadCallback {
+  public interface DownloadCallback {
     void onProgress(long lastBytesRead, long bytesRead, long bytesTotal);
     void onDownloadComplete() throws GenAIException;
   }
